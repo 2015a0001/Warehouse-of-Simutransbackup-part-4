@@ -1,0 +1,48 @@
+Obj=way
+Name=Gleis_60_Sand
+cost=11200
+maintenance=50
+topspeed=60
+max_weight=60
+intro_year = 1800
+intro_month = 9
+retire_year=1875
+retire_month=3
+waytype=track
+# skin
+cursor=gleis_01-Sand.2.1
+icon=> gleis_01-Sand.2.0
+# rbis * animation
+Image[-]=gleis_01-Sand.0.2
+Image[N]=gleis_01-Sand.1.8
+Image[S]=gleis_01-Sand.1.6
+Image[E]=gleis_01-Sand.1.7
+Image[W]=gleis_01-Sand.1.9
+Image[NS]=gleis_01-Sand.0.0
+Image[EW]=gleis_01-Sand.0.1
+Image[NSE]=gleis_01-Sand.1.3
+Image[NSW]=gleis_01-Sand.1.1
+Image[NEW]=gleis_01-Sand.1.2
+Image[SEW]=gleis_01-Sand.1.4
+Image[NSEW]=gleis_01-Sand.1.0
+# Kurven rund
+Image[NE]=gleis_01-Sand.0.4
+Image[SE]=gleis_01-Sand.0.6
+Image[NW]=gleis_01-Sand.0.5
+Image[SW]=gleis_01-Sand.0.3
+# Kurven gerade
+#Image[NE]=gleis_01-Sand.2.7
+#Image[SE]=gleis_01-Sand.2.9
+#Image[NW]=gleis_01-Sand.2.8
+#Image[SW]=gleis_01-Sand.2.6
+#
+Diagonal[NE]=gleis_01-Sand.2.7
+Diagonal[SE]=gleis_01-Sand.2.9
+Diagonal[NW]=gleis_01-Sand.2.8
+Diagonal[SW]=gleis_01-Sand.2.6 
+# hangtyp * animation
+ImageUp[3]=gleis_01-Sand.2.4
+ImageUp[6]=gleis_01-Sand.2.5
+ImageUp[9]=gleis_01-Sand.2.3
+ImageUp[12]=gleis_01-Sand.2.2
+------------------------------------

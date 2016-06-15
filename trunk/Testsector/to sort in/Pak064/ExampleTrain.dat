@@ -1,0 +1,47 @@
+#-------------------------------------------------------------------------------
+#   ExampleTrain.dat
+#
+#   Copyright (c) 2002 Volker Meyer
+#
+#   An example data file for simutrans vehicles - needs to ExampleTrain.png
+#
+#   Modifications:
+#       05.10.2002      initial version
+#-------------------------------------------------------------------------------
+obj=vehicle
+name=BlueExampleEngine
+waytype=track
+freight=None
+speed=100
+cost=1100000
+weight=64
+power=1000
+RunningCost=30
+Constraint[Prev][0]=none
+Constraint[Next][0]=BlueExampleWaggon
+EmptyImage[S]=ExampleTrain.0.0
+EmptyImage[E]=ExampleTrain.0.1
+EmptyImage[SE]=ExampleTrain.0.2
+EmptyImage[SW]=ExampleTrain.0.3
+EmptyImage[N]=ExampleTrain.0.4
+EmptyImage[W]=ExampleTrain.0.5
+EmptyImage[NW]=ExampleTrain.0.6
+EmptyImage[NE]=ExampleTrain.0.7
+--------------------------------------------------------------------------------
+obj=vehicle
+name=BlueExampleWaggon
+waytype=track
+freight=Passagiere
+payload=20
+cost=8000
+weight=32
+RunningCost=2
+Constraint[Prev][0]=BlueExampleEngine
+Constraint[Prev][1]=BlueExampleWaggon
+Constraint[Next][0]=BlueExampleWaggon
+Constraint[Next][1]=none
+EmptyImage[S]=ExampleTrain.1.0
+EmptyImage[W]=ExampleTrain.1.1
+EmptyImage[SE]=ExampleTrain.1.2
+EmptyImage[SW]=ExampleTrain.1.3
+-------------------------------------------------------------------------------
